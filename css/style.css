@@ -1,0 +1,18 @@
+*{
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+dd{
+    background: red;
+    color: green;
+}
+dt{
+    background: green;
+    color: red;
+}
+h1{
+    background: silver;
+    color: bisque;
+}

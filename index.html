@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AJAX Weather App</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AJAX Weather App</title>
 </head>
 <body>
     <h1>Weather Information</h1>
     <dl>
-
+        <dt>City Name</dt>
+        <dd id="city-name"></dd>
+        <dt>Forecast</dt>
+        <dd id="description"></dd>
+        <dt>Temperature</dt>
+        <dd id="temperature"></dd>
+        <dt>Today's High</dt>
+        <dd id="high"></dd>
+        <dt>Today's Low</dt>
+        <dd id="low"></dd>
+        <dt>Humidity</dt>
+        <dd id="humidity"></dd>
+        <dt>Wind Speed</dt>
+        <dd id="wind-speed"></dd>
     </dl>
     <form>
                 <input type="text" placeholder="City Name"/>
